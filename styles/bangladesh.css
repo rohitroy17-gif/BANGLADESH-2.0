@@ -7,6 +7,7 @@
 }
 body{
     background-color: rgb(210, 206, 206);
+    margin: 120 auto;
 }
 
 
@@ -42,7 +43,7 @@ nav{
 .mini-banner{
     max-width: 622px;
     width: 326px;
-    margin-top: 180px;
+    margin-top: 150px;
     margin-left: 50px;
 }
 .hero-img{
@@ -311,7 +312,7 @@ p {
 }
 
 .custom-amount {
-  width: 1032px;
+  width: 1010px;
   height: 64px;
   font-size: 16px;
   border: none;
@@ -329,7 +330,12 @@ p {
   cursor: pointer;
   transition: background 0.3s;
 }
-
+.sub-but{
+  padding-top: 30px;
+}
+.cus-am{
+  padding-right: 65px;
+}
 .submit-button:hover {
   background-color: #005f3b;
 }
